@@ -53,6 +53,21 @@ h6 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transform: translateY(35%);
+}
+
+.header::after{
+    content: "";
+    position: absolute;
+    background-image: url(../images/header-decor.svg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(75%) rotate(180deg);
 }
 
 .header__top {
