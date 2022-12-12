@@ -1,6 +1,14 @@
-
+body{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #262c27;
+}
 
 /* header style start */
+
+
 
 
 /* header style end */
