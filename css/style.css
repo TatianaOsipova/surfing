@@ -38,7 +38,21 @@ h6 {
     background-image: url(../images/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/header-decor.svg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header__top {
@@ -59,6 +73,7 @@ h6 {
 
 .logo:hover path {
     fill: #0093A1;
+    transition: fill .3s ease;
 }
 
 .header__btn {
@@ -68,7 +83,40 @@ h6 {
     background-color: #262c27;
     border: none;
     cursor: pointer;
+}
 
+.header__content{
+    min-height: calc(100vh - 161px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__content-box{
+    max-width: 550px;
+    text-align: center;
+    margin-right: 30px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.header__title{
+    text-transform: uppercase;
+    margin-bottom: 20px;    
+    font-size: 64px;
+    line-height: 71px;
+}
+
+.header__text{
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.header__decor-text{
+    position: absolute;
+    top: 0;
 }
 
 
