@@ -144,7 +144,7 @@ ul{
 .header__decor-text {
     position: absolute;
     bottom: 25px;
-    color: #0093A1;
+    color: #0093A1;    
 }
 
 .header__decor-text--one {
@@ -180,7 +180,7 @@ ul{
 
 /* styling header end */
 
-/* styling main start */
+/* styling section info start */
 
 .info {
     background-image: url(../images/info-bg.jpg);
@@ -201,8 +201,6 @@ ul{
     transform: translateY(-120px);
     z-index: 1;
 }
-
-.info__inner {}
 
 .info__top {
     display: flex;
@@ -284,8 +282,4 @@ ul{
     width: 185px;
 }
 
-
-
-
-
-/* styling main end */
+/* styling section info end */
