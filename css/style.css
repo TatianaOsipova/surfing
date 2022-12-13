@@ -39,6 +39,15 @@ ul {
     margin: 0 auto;
 }
 
+.title{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    line-height: 67px;
+
+}
+
 /* styling header start */
 
 .header {
@@ -244,6 +253,7 @@ ul {
     border: none;
     cursor: pointer;
     background-color: transparent;
+    position: absolute;
 }
 
 .popup-btn span {
@@ -253,7 +263,6 @@ ul {
 }
 
 .info__btn {
-    position: absolute;
     bottom: 0;
     right: 0;
 }
@@ -267,10 +276,6 @@ ul {
 }
 
 .info__specs-title {
-    text-transform: uppercase;
-    font-family: 'Comfortaa', cursive;
-    font-size: 60px;
-    line-height: 67px;
     width: 250px;
 }
 
@@ -311,12 +316,8 @@ ul {
     position: relative;
 }
 
-.buy__title {
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    font-family: 'Comfortaa', cursive;
-    font-size: 60px;
-    line-height: 67px;
+.buy__title {    
+    margin-bottom: 50px;    
     color: #0093A1;
 }
 
@@ -391,18 +392,33 @@ ul {
     background-image: url(../images/tech-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;    
+}
+
+.technology__top-inner {
     position: relative;
     min-height: 110vh;
 }
 
-.technology__top-inner {}
+.technology__btn {
+    right: 350px;
+    top: 50vh;    
+}
 
-.technology__btn {}
+.technology__top-box{
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+}
 
-.technology__title {}
+.technology__title {
+    max-width: 470px;    
+    margin-bottom: 62px;
+}
 
-.technology__list {}
+.technology__list {
+    margin: 0;
+}
 
 .technology__list-item {}
 
