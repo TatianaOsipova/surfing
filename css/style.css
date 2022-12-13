@@ -40,7 +40,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    background-position: center;
+    background-position: center;    
 }
 
 .header::before {
@@ -50,7 +50,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 450px;
+    height: 456px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 450px;
+    height: 456px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,9 +109,10 @@ p {
     align-items: center;
     justify-content: flex-end;
     position: relative;
+    
 }
 
-.header__content-box {
+.header__content-box {    
     max-width: 550px;
     text-align: center;
     margin-right: 30px;
@@ -141,7 +142,7 @@ p {
 
 .header__decor-text--one {
     z-index: 1;
-    left: 1073px;
+    right: 145px;
     bottom: 120px;
 }
 
@@ -155,13 +156,13 @@ p {
 
 .header__decor-text--two {
     z-index: 4;
-    padding-left: 265px;
+    left: 265px;
     bottom: 0;
-}
+} 
 
-.header__decor-text--three {
+.header__decor-text--three {   
     max-width: 360px;
-    left: 1066px;
+    right: 145px;
     z-index: 4;
     font-weight: 300;
     font-size: 32px;
@@ -169,5 +170,7 @@ p {
     font-style: italic;
     text-align: center;
 }
+
+
 
 /* header style end */
