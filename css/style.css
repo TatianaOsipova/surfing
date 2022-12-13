@@ -200,17 +200,41 @@ p {
 
 .info__top {
     display: flex;
+    gap: 80px;
+    padding-top: 100px;
+
 }
 
-.info__top-text {}
+.info__top-text {
+    padding-top: 245px;
+    width: 290px;
+    color: #FFFFFF;
+    position: relative;
+}
 
-.info__btn {}
+.info__top-img {
+    position: relative;
+    z-index: 6;
+}
 
-.info__top-img {}
+.popup-btn {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
 
-.container {}
+.popup-btn span{
+    padding-top: 12px;
+    display: block;
+    color: #fff;
+}
 
-.popup-btn {}
+.info__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 
 
