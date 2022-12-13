@@ -212,6 +212,10 @@ p {
     position: relative;
 }
 
+.info__top-text--two{
+    border-bottom: 1px solid #fff;
+}
+
 .info__top-img {
     position: relative;
     z-index: 6;
