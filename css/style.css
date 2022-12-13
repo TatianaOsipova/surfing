@@ -40,7 +40,9 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    background-position: center;    
+    background-position: center;
+    position: relative;
+    margin-bottom: 80px;
 }
 
 .header::before {
@@ -108,10 +110,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    position: relative;    
+    position: relative;
 }
 
-.header__content-box {    
+.header__content-box {
     max-width: 550px;
     text-align: center;
     margin-right: 30px;
@@ -157,9 +159,9 @@ p {
     z-index: 4;
     left: 265px;
     bottom: 0;
-} 
+}
 
-.header__decor-text--three {   
+.header__decor-text--three {
     max-width: 360px;
     right: 145px;
     z-index: 4;
@@ -173,6 +175,43 @@ p {
 /* styling header end */
 
 /* styling main start */
+
+.info {
+    background-image: url(../images/info-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;    
+}
+
+.info::before{
+    content: "";
+    position: absolute;
+    height: 130px;
+    background-color: #262C27;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-120px);
+    z-index: 1;
+}
+
+.info__inner {}
+
+.info__top {
+    display: flex;
+}
+
+.info__top-text {}
+
+.info__btn {}
+
+.info__top-img {}
+
+.container {}
+
+.popup-btn {}
+
 
 
 
