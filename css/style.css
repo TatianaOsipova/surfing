@@ -33,7 +33,7 @@ p {
     margin: 0 auto;
 }
 
-/* header style start */
+/* styling header start */
 
 .header {
     background-image: url(../images/header-bg.jpg);
@@ -108,8 +108,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    position: relative;
-    
+    position: relative;    
 }
 
 .header__content-box {    
@@ -171,6 +170,10 @@ p {
     text-align: center;
 }
 
+/* styling header end */
+
+/* styling main start */
 
 
-/* header style end */
+
+/* styling main end */
