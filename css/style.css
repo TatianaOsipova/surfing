@@ -27,7 +27,7 @@ p {
     margin: 0;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -144,7 +144,7 @@ ul{
 .header__decor-text {
     position: absolute;
     bottom: 25px;
-    color: #0093A1;    
+    color: #0093A1;
 }
 
 .header__decor-text--one {
@@ -275,11 +275,36 @@ ul{
 .info__specs-item {
     margin-bottom: 15px;
     display: flex;
-    gap: 25px;    
+    gap: 25px;
 }
 
-.info__specs-caption{
+.info__specs-caption {
     width: 185px;
 }
 
 /* styling section info end */
+
+/* styling section buy start */
+
+.buy {
+    
+}
+
+.buy__inner {}
+
+.buy__content {}
+
+.buy__title {}
+
+.buy__list {}
+
+.buy__item {}
+
+.buy__item-title {}
+
+.buy__item-text {}
+
+
+
+
+/* styling section buy end */
