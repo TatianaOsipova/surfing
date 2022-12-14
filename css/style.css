@@ -649,7 +649,16 @@ ul {
     .info__top-text--two{
         padding-bottom: 25px;
         padding-top: 45px;
+    }
 
+    .info__top-img{
+        width: 227px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .info__specs{
+        display: block;
     }
 }
 
@@ -669,6 +678,19 @@ ul {
 
     .header__content-box {
         margin-right: 0;
+    }
+
+    .info__top{
+        margin-bottom: 150px;
+    }
+}
+
+@media(max-width: 630px){
+    .info__specs-list{
+        width: 100%;
+    }
+    .info__specs-item{
+        display: block;
     }
 }
 
