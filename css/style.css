@@ -471,7 +471,7 @@ ul {
     border-radius: 400px 0px 0px 0px;
 }
 
-.gallery-min__img--2{
+.gallery-min__img--2 {
     border-radius: 0px 0px 0px 300px;
 }
 
@@ -488,15 +488,15 @@ ul {
     border-radius: 0px 500px 0px 0px;
 }
 
-.gallery-max__img--3{
+.gallery-max__img--3 {
     border-radius: 0px 0px 150px 0px;
 }
 
-.gallery-max__img--4{
+.gallery-max__img--4 {
     border-radius: 0px 200px 0px 0px;
 }
 
-.gallery-max__img--5{
+.gallery-max__img--5 {
     border-radius: 200px 0px 0px 0px;
 }
 
@@ -521,3 +521,28 @@ ul {
 
 /* styling section technology end */
 
+/* styling footer start */
+
+.footer {}
+
+.footer__inner {}
+
+.footer__top {}
+
+.footer__form {}
+
+.footer__title {}
+
+.footer__form-input {}
+
+.footer__form-btn {}
+
+.footer__logo {}
+
+
+
+
+
+
+
+/* styling footer end */
