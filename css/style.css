@@ -637,6 +637,24 @@ ul {
     }
 }
 
+@media(max-width: 1000px){
+    .info__top{
+        display: block;
+    }
+
+    .info__top-text{
+        width: 100%;
+    }
+
+    .info__top-text--two{
+        padding-bottom: 25px;
+        padding-top: 45px;
+
+    }
+}
+
+
+
 @media(max-width: 720px) {
     .header__top {
         flex-wrap: wrap;
