@@ -636,25 +636,60 @@ ul {
         left: 0;
     }
 
-    .buy__inner{
+    .buy__inner {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .buy__img{
+    .buy__img {
         order: -1;
         max-width: 100%;
     }
 
-    .buy__content{
+    .buy__content {
         width: 100%;
     }
-    .buy__price{
+
+    .buy__price {
         pointer-events: none;
     }
-    .buy__item{
+
+    .buy__item {
         width: 100%;
         max-width: 600px;
+    }
+
+    .gallery-max {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto auto auto;
+        width: 100%;
+    }
+
+    .gallery-max__img {
+        width: 100%;
+        align-self: stretch;
+    }
+}
+
+@media(max-width: 1175px) {
+    .gallery__box {
+        flex-wrap: wrap;
+    }
+
+    .gallery-min {
+        margin-top: 0;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+
+    .gallery__text {
+        width: 100%;
+    }
+
+    .gallery-min__img {
+        width: 100%;
+        align-self: stretch;
     }
 }
 
@@ -683,10 +718,19 @@ ul {
     }
 }
 
-@media(max-width: 840px){
-    .buy__price{
+@media(max-width: 840px) {
+    .buy__price {
         bottom: auto;
         top: -350px;
+    }
+
+    .gallery-min {
+        margin-bottom: 50px;
+    }
+
+    .gallery-max__text {
+        font-size: 18px;
+        line-height: 20px;
     }
 }
 
@@ -708,7 +752,8 @@ ul {
     .info__top {
         margin-bottom: 150px;
     }
-    .buy{
+
+    .buy {
         padding-top: 80px;
     }
 }
@@ -721,20 +766,33 @@ ul {
     .info__specs-item {
         display: block;
     }
-    .title{
+
+    .title {
         font-size: 48px;
         line-height: 56px;
+    }
+
+    .gallery-min {
+        padding: 20px 10px 20px;
+    }
+
+    .gallery-max__text {
+        font-size: 14px;
+        line-height: 16px;
     }
 }
 
 @media(max-width: 500px) {
-    .buy__price{
+    .buy__price {
         width: 170px;
         height: 168px;
         background-size: cover;
         top: -185px;
     }
 
+    .gallery-max__text {
+        font-size: 12px;
+    }
 }
 
 
@@ -747,6 +805,24 @@ ul {
     .header__content {
         z-index: 5;
     }
+
+    .gallery-min::before {
+        display: none;
+    }
+
+    .gallery-min,
+    .gallery-max {
+        gap: 10px;
+    }
+
+    .technology__title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .gallery-max__text {
+        font-size: 10px;
+    }
 }
 
 @media(max-width: 375px) {
@@ -757,6 +833,10 @@ ul {
 
     .header__decor-text {
         display: none;
+    }
+
+    .gallery-max__text {
+        font-size: 8px;
     }
 }
 
