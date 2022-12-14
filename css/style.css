@@ -264,6 +264,24 @@ ul {
     padding-top: 12px;
     display: block;
     color: #fff;
+    transition: color .3s;
+}
+
+.popup-btn path,
+.popup-btn circle {
+    transition: all .3s;
+}
+
+.popup-btn:hover path {
+    fill: #B9C400;
+}
+
+.popup-btn:hover circle {
+    stroke: #B9C400;
+}
+
+.popup-btn:hover span {
+    color: #0093A1;
 }
 
 .info__btn {
@@ -348,6 +366,8 @@ ul {
 
 .buy__price {
     position: absolute;
+    right: 0;
+    bottom: 130px;
     width: 201px;
     height: 199px;
     font-weight: 700;
@@ -357,8 +377,11 @@ ul {
     justify-content: center;
     align-items: center;
     background-image: url(../images/star.svg);
-    right: 0;
-    bottom: 130px;
+    transition: transform .3s;
+}
+
+.buy__price:hover{
+    transform: scale(1.1);
 }
 
 .buy__btn {
@@ -529,8 +552,6 @@ ul {
     color: #fff;
 }
 
-.footer__inner {}
-
 .footer__top {
     display: flex;
     justify-content: space-between;
@@ -555,11 +576,11 @@ ul {
     color: #fff;
 }
 
-.footer__form-input::placeholder{
+.footer__form-input::placeholder {
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 .footer__form-btn {
@@ -576,12 +597,34 @@ ul {
     cursor: pointer;
 }
 
-.footer__logo {}
+.footer__social-title {
+    margin-bottom: 28px;
+    font-weight: 700;
+}
 
+.footer__gallery {
+    display: grid;
+    gap: 52px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+}
 
+.footer__menu-list {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer__logo {
+    align-self: flex-start;
+}
 
+.footer__logo path {
+    transition: fill .3s;
+}
 
-
+.footer__logo:hover path {
+    fill: #0093A1;
+}
 
 /* styling footer end */
