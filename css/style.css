@@ -523,17 +523,44 @@ ul {
 
 /* styling footer start */
 
-.footer {}
+.footer {
+    padding: 100px 0 80px;
+    background-color: #262C27;
+    color: #fff;
+}
 
 .footer__inner {}
 
-.footer__top {}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+}
 
-.footer__form {}
+.footer__form {
+    max-width: 500px;
+}
 
-.footer__title {}
+.footer__title {
+    margin-bottom: 27px;
+}
 
-.footer__form-input {}
+.footer__form-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 57px;
+    color: #fff;
+}
+
+.footer__form-input::placeholder{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.2;
+}
 
 .footer__form-btn {}
 
